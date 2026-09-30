@@ -1,0 +1,16 @@
+{
+    "name": "fmo/reservas-deportivas",
+    "description": "Reservas de espacios deportivos universitarios",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    container_name: reservas-web
+    ports:
+      - "8087:80"
+    volumes:
+      - .:/var/www/html
